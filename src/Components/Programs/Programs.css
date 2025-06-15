@@ -1,0 +1,57 @@
+.programs {
+  margin: 80px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* all the element will be align side by side */
+}
+.programs img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+.program {
+  flex-basis: 31%; /* means the item will take up 31% of the container’s main axis width (in a row layout) before adjusting. typical use in a 3 pictures */
+  position: relative;
+}
+.caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 15, 152, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* make the img and the word stack like colume */
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.4s;
+}
+
+.caption img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.program:hover .caption {
+  /*When the user hovers over an element with the class .program, make its child .caption element fully visible by setting its opacity to 1."*/
+  opacity: 1;
+  padding-top: 0;
+}
+
+/*media query */
+
+@media (max-width: 650px) {
+  .programs {
+    flex-direction: column; /* display the photor in column format */
+  }
+  .program {
+    flex-basis: 100%; /*set the initial size of a flex item before it grows or shrinks. */
+    margin: 20px;
+  }
+}
