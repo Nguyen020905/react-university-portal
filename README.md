@@ -2,7 +2,7 @@
 
 A responsive university-themed landing page built with ReactJS.
 
-This project helped me learn more about React fundamentals including component structure, props, and state management. I implemented smooth scrolling when clicking navbar links, conditional rendering for video pop-ups, and a clean, user-friendly UI/UX design. It’s also fully responsive across devices using CSS Flexbox and media queries.
+This project helped me learn more about React fundamentals including component structure, props, and state management. I implemented smooth scrolling when clicking navbar links, a working contact form submission, conditional rendering for video pop-ups, and a clean, user-friendly UI/UX design. It’s also fully responsive across devices using CSS Flexbox and media queries.
 
 ## 🚀 Features
 
@@ -10,6 +10,7 @@ This project helped me learn more about React fundamentals including component s
 - Responsive layout for desktop and mobile
 - Video popup player
 - Testimonials slider with navigation
+- Working contact form submission
 - Reusable components
 - Interactive mobile menu toggle
 
