@@ -6,20 +6,25 @@ This project helped me learn more about React fundamentals including component s
 
 ## 🚀 Features
 
-- Smooth scrolling navigation
-- Responsive layout for desktop and mobile
-- Video popup player
-- Testimonials slider with navigation
-- Working contact form submission
-- Reusable components
+- Smooth scrolling navigation  
+- Responsive layout for desktop and mobile  
+- Video popup player  
+- Testimonials slider with navigation  
+- Working contact form submission  
+- Reusable components  
 - Interactive mobile menu toggle
 
 ## 🛠️ Tech Stack
 
-- ReactJS
-- JavaScript (ES6+)
-- CSS / Flexbox / Media Queries
-- React Scroll
+- ReactJS  
+- JavaScript (ES6+)  
+- CSS / Flexbox / Media Queries  
+- React Scroll  
 - Vite (optional, if used)
 
-## 📂 Structure
+## 🌐 Live Demo
+
+You can access the website here:  
+👉 [Live Site on Vercel](https://react-university-portal.vercel.app/)
+
+## 📂 Project Structure
